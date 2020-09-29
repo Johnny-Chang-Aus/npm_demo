@@ -56,6 +56,4 @@ function fn2() {
 assert.ok(fn2() instanceof Promise); //結果則為true
 fn2().then((data) => {console.log(date)}); //取async函數回傳值的方法
 
-const fn3 = async () => {
-
-};
+const fn3 = async () => { return 1}; //此寫法與上述fn2功能上完全相同, 只是換個寫法
