@@ -45,7 +45,7 @@ async function fn2() {
     return 1;
 }
 function fn2() {
-    return new Promise(function(resove. reject){
+    return new Promise(function(resolve, reject){
         resove(1);
     });
 }
